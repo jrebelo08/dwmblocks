@@ -3,8 +3,6 @@ static const Block blocks[] = {
     /*Icon*/    /*Command*/                             /*Update Interval*/ /*Update Signal*/
     {"",        "~/.local/bin/kb.sh",   
                                 300,                 0},
-    {"",        "~/.local/bin/bluetooth.sh",   
-                                5,                 0},
     {" ",      "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",  
                                 5,                 0},
     {"",        "~/.local/bin/battery.sh",   
